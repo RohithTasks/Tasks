@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    
+}
+.rohith{
+    display: flex;
+}
+
+nav ul h1{
+    font-size: 50px;
+}
+
+.mainContainer{
+    display: flex;
+    list-style-type: none;
+    margin:  0px 500px;
+
+}
+div i{
+    margin: 0 20px;
+}
+.flex-container{
+    display: flex;
+    margin-left: 20px;
+    
+    
+}
+.two{
+    display: flex;
+    list-style-type: none;
+    margin-left:350px;
+    
+}
+
+nav ul li{
+    display: flex;
+    list-style-type: none;
+    margin: 20px 20px;
+}
+.man{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+.run{
+    background-color:green;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:350px;
+    padding:125px;
+    text-align: center;
+    font-size: 20px;
+}
+.three h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkgreen;
+    font-size:40px;
+    margin-left: 70px;
+    
+}
+.three h5{
+    color: green;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left:70px ;
+}
+.three ul li{
+         margin-left: 130px;
+         margin-top: 15px;
+}
+button{
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 20px;
+    width: 200px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+h3{
+    margin-top:100px;
+    margin-left:400px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+@media screen and (min-width:300px) and (max-width:450px) {
+   nav ul li{
+    display: none;
+   }
+   .two  > h1{
+       font-size:100px;
+       margin-left: 250px;
+   }
+   .man{
+    flex-direction: column-reverse;
+   }
+   .three h1{
+        font-size: 100px;
+        margin-left:50px;
+
+   }
+   .fa-solid fa-bars{
+    margin-right:200px;
+   }
+    
+}
